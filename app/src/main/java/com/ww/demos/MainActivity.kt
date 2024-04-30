@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import dalvik.system.BaseDexClassLoader
 import dalvik.system.DexClassLoader
+import dalvik.system.PathClassLoader
 import java.io.File
 import java.lang.reflect.Field
 
