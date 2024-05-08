@@ -3,7 +3,9 @@ package com.ww.classloaderdemo
 import android.content.Context
 import android.util.Log
 import dalvik.system.DexClassLoader
+import dalvik.system.PathClassLoader
 import java.io.File
+import java.io.FileOutputStream
 import java.io.IOException
 import java.util.Objects
 
@@ -61,7 +63,6 @@ object ClassLoaderHelper {
             return
         }
         file.setReadOnly()
-        val filesDir = context.filesDir
         val cacheDir = context.cacheDir
         val classLoader = context.classLoader
         try {
