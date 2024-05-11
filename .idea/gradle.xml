@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/classloaderdemo" />
+            <option value="$PROJECT_DIR$/resourcedemo" />
             <option value="$PROJECT_DIR$/test" />
           </set>
         </option>

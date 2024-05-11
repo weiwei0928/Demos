@@ -106,10 +106,8 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == PERMISSION_REQUEST_CODE) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(this, "权限授予成功", Toast.LENGTH_SHORT).show()
-                // 权限被用户同意，可以执行相应操作
             } else {
                 Toast.makeText(this, "权限被拒绝", Toast.LENGTH_SHORT).show()
-                // 提示用户权限被拒绝，可能需要向用户解释为什么应用需要这些权限
             }
         }
     }

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">resourcedemo</string>
+<!--    <string name="plugin_test">"动态加载资源示例"</string>-->
+</resources>

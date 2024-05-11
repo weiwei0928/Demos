@@ -16,3 +16,4 @@ rootProject.name = "Demos"
 include ':app'
 include ':test'
 include ':classloaderdemo'
+include ':resourcedemo'

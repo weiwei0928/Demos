@@ -101,7 +101,7 @@ object ClassLoaderHelper {
             dexElementsField[pathList] = replaceElement
 
             val className = "com.ww.classloaderdemo.Test"
-            val clazz = classLoader.loadClass(className)
+            val clazz = context.classLoader.loadClass(className)
             val instance = clazz.newInstance()
             val method = clazz.getMethod("test1")
             method.isAccessible  = true
