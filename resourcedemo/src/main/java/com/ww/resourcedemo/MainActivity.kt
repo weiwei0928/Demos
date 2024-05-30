@@ -34,10 +34,14 @@ class MainActivity : AppCompatActivity() {
         }
         val textview: TextView = findViewById<View>(R.id.tv) as TextView
 
-        val resources = loadResource()
+//        val resources = loadResource()
         textview.setOnClickListener {
 //            textview.text = getString(R.string.plugin_test)
-            textview.text = resources.getString(0x7f0f00a7)
+//            textview.text = resources.getString(0x7f0f00a7)
+
+            var array :IntArray = intArrayOf(1,2,3,4)
+
+            Test17.permute(array)
         }
 
 
