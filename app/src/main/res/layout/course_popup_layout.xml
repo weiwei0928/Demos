@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/course_popup_background"
+    android:paddingHorizontal="16dp"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@mipmap/course_popup_background"-->
+<!--        android:orientation="vertical"-->
+<!--        android:paddingHorizontal="16dp"-->
+<!--        >-->
+
+        <TextView
+            android:layout_marginVertical="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购课问题咨询"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <View
+            android:background="#f1f3f5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="售后服务"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+</LinearLayout>

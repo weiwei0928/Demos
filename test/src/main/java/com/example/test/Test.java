@@ -10,26 +10,35 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println(Integer.MAX_VALUE);
+//
+//        PriorityQueue<Integer> queue = null;
+//        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+//            queue = new PriorityQueue<>(new Comparator<Integer>() {
+//                @Override
+//                public int compare(Integer o1, Integer o2) {
+//                    return o2 - o1;
+//                }
+//            });
+//        }
+//        queue.add(11);
+//        queue.add(121);
+//        queue.add(21);
+//        queue.add(1);
+//        queue.add(2);
+//        queue.add(3);
+//
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
 
-        PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2 - o1;
-            }
-        });
-        queue.add(11);
-        queue.add(121);
-        queue.add(21);
-        queue.add(1);
-        queue.add(2);
-        queue.add(3);
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
 
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-
+        System.out.println(list.toString());
     }
 
     //-5 , -1, 0, 1, 2, 2, 3, 4
